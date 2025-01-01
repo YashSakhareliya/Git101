@@ -1,0 +1,13 @@
+5. db.Movies.updateOne({title:"Inception"},{$push:{languages:"Chinese"}})
+
+6. db.Movies.updateMany({director:'Christopher Nolan'},{$push:{cast:'Michael Caine'}})
+
+7. db.Movies.updateMany({runtime:{$gt:140}},{$push:{streamingOn:'Disney+'}})
+
+8. db.Movies.find({$and:[{genre:{$size:2}},{boxOffice:{$exists:1}},{specialFeatures:{$exists:0}}]})
+
+9.  db.Movies.deleteMany({rating:{$lt:8}})
+
+10. db.Movies.updateMany({year:{$lt:2000}},{$pull:{streamingOn:'Netflix'}})
+
+11. 
