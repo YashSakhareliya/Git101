@@ -37,3 +37,10 @@
 //     })
     
 // }
+
+
+// Promis---->How to Handel Promis
+
+function promise(){
+    
+}
